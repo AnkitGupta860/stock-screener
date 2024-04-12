@@ -1,7 +1,7 @@
 # stock-screener
 A web-based stock screener application that allows users to analyze stocks based on various criteria
 
-
+First run for both frontend and backend to install all the dependencies ( npm install --legacy-peer-deps  ).
 
 **Project Documentation**
 
