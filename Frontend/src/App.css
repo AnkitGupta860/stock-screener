@@ -1,0 +1,288 @@
+/* Home.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.search-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.default-stocks {
+  width: 100%;
+}
+
+.default-stocks-title {
+  margin-top: 20px;
+  text-align: center;
+  /* Center the title */
+}
+
+.stock-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  /* Add some space between the title and the table */
+}
+
+.stock-table th,
+.stock-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.stock-table th {
+  background-color: #f2f2f2;
+}
+
+
+
+
+
+/* /////////////////// */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.search-wrapper {
+  text-align: center;
+  width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  top: 0;
+  background-color: #f1f1f1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+  width: calc(100% - 100px);
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.search-input:focus {
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.5);
+}
+
+.search-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+/* ///////////// */
+
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a {
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
+}
+
+.nav-right {
+  text-align: right;
+}
+
+
+.logo {
+  width: 34px;
+  float: left;
+  margin-top: 9px;
+  margin-left: 17px;
+  margin-right: 5px;
+}
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: darkcyan;
+}
+
+.register {
+  /* margin-left: 30%; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.login {
+  margin-left: 30%;
+  margin-top: 100px;
+}
+
+.addProduct {
+  margin-left: 30%;
+  margin-top: 100px;
+}
+
+.appButton {
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: skyblue;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.inputBox {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+
+.invalid-input {
+  color: black;
+  margin-top: -22px;
+  display: block;
+  margin-left: 27px;
+  font-size: small;
+}
+
+.product-list ul li {
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+
+.product-list ul li button {
+  margin: 2px;
+}
+
+.search {
+
+  width: 400px;
+  margin: 30px;
+  height: 40px;
+  padding-left: 20px;
+
+}
+
+.product-list {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-list ul {
+  margin: 0px;
+}
+
+th {
+  position: sticky;
+  top: -16px;
+}
+
+.passClass{
+  position: relative;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.mainContainer {
+  display: flex;
+  height: 100vh;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
